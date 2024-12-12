@@ -60,7 +60,5 @@ def main():
         time.sleep(0.1)
 
 # Ejecutar la función principal
-if __name__ == "__main__": 
-    main()
-
+main()
 #COmentario de prueba
