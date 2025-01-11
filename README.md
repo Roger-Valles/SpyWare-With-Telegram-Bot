@@ -5,6 +5,7 @@ This project was developed as part of a university cybersecurity assignment to d
 ## Project Objective  
 
 The purpose of this project is twofold:  
+
 1. **Demonstrate technical accessibility**: Show how a tool like spyware can be developed by anyone with basic programming skills, highlighting the importance of strengthening system security.  
 2. **Analyze security implications**: Provide a controlled environment to understand how such tools work, assess the associated risks, and explore strategies to mitigate these threats.  
 
@@ -20,20 +21,22 @@ The purpose of this project is twofold:
    ```bash
    git clone [[https://github.com/Roger-Valles/SpyWare-With-Telegram-Bot](https://github.com/Roger-Valles/SpyWare-With-Telegram-Bot)]
    ```
-2. Doble click "build.bat"
   
-3. Set up the Telegram bot token:
-   Create a bot on Telegram using BotFather.
+2. **Set up the Telegram bot token**:  
+   - Create a bot on Telegram using BotFather.  
+   - Copy your token and paste it into the code in `main.py` where the bot is initialized.
 
-<img src="https://github.com/user-attachments/assets/1dd23135-165a-4f01-be67-d1041106f341" width="300" height="500">
+   <img src="https://github.com/user-attachments/assets/1dd23135-165a-4f01-be67-d1041106f341" width="300" height="500">
    
-   Copy your token and paste it into the code in `main.py` where the bot is initialized.
+3. **Copy your ChatID**:  
+   Copy your `chat_id="131933xxxx"` and paste it into `keylogger.py`.
 
-4. Copy yout ChatID `chat_id="131933xxxx"` in `keylogger.py`
+4. **Run the build script**:  
+   Double-click on `build.bat` to compile the program.
 
 ## How to use
 
-
+Double-click the generated `.exe` file to run the program.
 
 ## Disclaimer  
 
