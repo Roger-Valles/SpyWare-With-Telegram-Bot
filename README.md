@@ -26,7 +26,7 @@ The purpose of this project is twofold:
    Create a bot on Telegram using BotFather.
    Copy your token and paste it into the code in `main.py` where the bot is initialized.
    
-<img src="https://github.com/user-attachments/assets/1dd23135-165a-4f01-be67-d1041106f341" width="500" height="300">
+<img src="https://github.com/user-attachments/assets/1dd23135-165a-4f01-be67-d1041106f341" width="300" height="500">
 
 
 5. Copy yout ChatID `chat_id="131933xxxx"` in `keylogger.py`
