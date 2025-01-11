@@ -31,7 +31,10 @@ The purpose of this project is twofold:
 3. **Copy your ChatID**:  
    Copy your `chat_id="131933xxxx"` and paste it into `keylogger.py`.
 
-4. **Run the build script**:  
+4. **Make sure Python is installed**:  
+   This project requires Python to run. Ensure you have Python 3.x installed on your system. You can download Python from https://www.python.org/downloads.
+
+5. **Run the build script**:  
    Double-click on `build.bat` to compile the program.
 
 ## How to use
