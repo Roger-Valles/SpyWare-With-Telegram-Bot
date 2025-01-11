@@ -24,7 +24,7 @@ The purpose of this project is twofold:
   
 2. **Set up the Telegram bot token**:  
    - Create a bot on Telegram using BotFather.  
-   - Copy your token and paste it into the code in `main.py` where the bot is initialized.
+   - Copy your token and paste it into the code in `main_spyware.py` where the bot is initialized.
 
    <img src="https://github.com/user-attachments/assets/1dd23135-165a-4f01-be67-d1041106f341" width="300" height="500">
    
@@ -39,6 +39,5 @@ The purpose of this project is twofold:
 Double-click the generated `.exe` file to run the program.
 
 ## Disclaimer  
-
 
 **⚠️ Warning:** This project is for educational purposes and security testing in authorized environments only. Unauthorized use of this tool may be illegal and is prohibited.
