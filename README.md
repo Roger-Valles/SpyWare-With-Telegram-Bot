@@ -47,11 +47,17 @@ Double-click the generated `.exe` file to run the program.
 
 1. **Locate and Copy the Path to the Scripts Folder**:  
    Depending on your Python installation, the Scripts folder path could be:  
-    ```C:\Users\USER\AppData\Local\Programs\Python\Python312\Scripts```
-   Or:  
-    ```C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts```
+    ```bash
+   C:\Users\USER\AppData\Local\Programs\Python\Python312\Scripts
+    ```
+    
+   Or:
+   
+    ```bash
+    C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts
+    ```
 
-2. **Open Environment Variables in the Control Panel**:  
+3. **Open Environment Variables in the Control Panel**:  
 - Search for "Environment Variables" in the Control Panel.  
 - Find the `PATH` variable, select it, and click **Edit**.  
 - Add a new line with the Scripts folder path you copied earlier.  
@@ -62,9 +68,13 @@ Double-click the generated `.exe` file to run the program.
 ## Step 2: Alternative Solution  
 
 If adding the PATH does not work, try executing the command directly. Use one of the following commands based on your Python version and installation path:  
-```C:\Users\USER\AppData\Local\Programs\Python\Python312\Scripts\pyinstaller.exe build.spec```
+```bash
+C:\Users\USER\AppData\Local\Programs\Python\Python312\Scripts\pyinstaller.exe build.spec
+```
 Or:
-```C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts\pyinstaller.exe build.spec```
+```bash
+C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts\pyinstaller.exe build.spec
+```
 
 ---
 
