@@ -14,4 +14,4 @@ requests
 pywin32
 python-telegram-bot
 pyscreeze
-
+pyinstaller
