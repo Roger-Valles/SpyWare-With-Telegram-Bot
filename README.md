@@ -39,7 +39,7 @@ The purpose of this project is twofold:
 
 ## How to use
 
-Double-click the generated `.exe` file to run the program.
+Double-click the generated `.exe` file to run the program in the `dist` folder.
 
 # Errors  
 
