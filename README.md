@@ -41,6 +41,24 @@ The purpose of this project is twofold:
 
 Double-click the generated `.exe` file to run the program.
 
+## Errors  
+You have to add th Python Scritps PATH to environment variables of windows
+1. **Go to the Scripts Python folder and copy this path**
+   Can be this:
+   ```C:\Users\USER\AppData\Local\Programs\Python\Python312\Scripts```
+   Or can be this:
+   ```C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts```
+  
+2. **Find Control Panel and search for enviorment variables**:  
+   - Once you are there click on PATH variable and add a new line with the path of Scripts Folder
+   - ![image](https://github.com/user-attachments/assets/5c7972bf-6f3c-4054-838b-d646477b1d03)
+     
+3. **If this does not work to you just execute this command**:
+     ```C:\Users\USER\AppData\Local\Programs\Python\Python312\Scripts\pyinstaller.exe build.spec```
+     Or this one:
+     ```C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\Scripts\pyinstaller.exe build.spec```
+      
 ## Disclaimer  
 
 **⚠️ Warning:** This project is for educational purposes and security testing in authorized environments only. Unauthorized use of this tool may be illegal and is prohibited.
+
